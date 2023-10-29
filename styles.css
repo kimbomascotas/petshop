@@ -1,0 +1,161 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #ff8000b9;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+   
+}
+
+h1 {
+    margin: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.tab-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+ 
+}
+
+.tab {
+    border: 1px solid #ddd;
+    margin: 10px;
+    width: calc(20% - 24px); /* 5 marcas por fila (20% de ancho por marca) */
+    height: auto; /* Altura automática para ajustarse al contenido */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+   
+}
+
+.tab img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.content {
+    display: none;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    background-color: #fff;
+    display: inline-block;
+    width: calc(40% - 30px); /* 4 productos por fila, considerando padding y borde */
+    box-sizing: border-box; /* Agregar esta propiedad para incluir padding y borde en el cálculo del ancho */
+}
+
+.line-container {
+    display: none;
+   
+}
+.line-content {
+    display: none;
+   
+}
+
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+}
+
+.brand-image-container {
+    max-width: 500px; /* Ajusta el ancho según tus necesidades */
+    max-height: 500px; /* Ajusta la altura según tus necesidades */
+}
+
+/* Estilos para los productos */
+.product {
+    border: 1px solid #ddd;
+    margin: 10px;
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.product img {
+    max-width: 100%;
+    max-height: 200px;
+}
+
+.product-info {
+    margin-top: 10px;
+}
+
+.product h3 {
+    font-size: 16px;
+    margin: 0;
+}
+
+.product p {
+    margin: 5px 0;
+}
+
+.special-offers {
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.special-offers h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.special-offer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.special-offer-item {
+    border: 1px solid #ddd;
+    margin: 10px;
+    width: calc(25% - 20px); /* 4 productos por fila */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.special-offer-item img {
+    max-width: 100%;
+    max-height: 200px;
+}
+
+.special-offer-info {
+    margin-top: 10px;
+}
+
+.special-offer-info h3 {
+    font-size: 16px;
+    margin: 0;
+}
+
+.special-offer-info p {
+    margin: 5px 0;
+}
